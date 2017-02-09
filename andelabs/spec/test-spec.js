@@ -39,7 +39,7 @@ var compute = require("../app/compute.js");
       });
     });
 
-    describe("Case for inputs that are not array", function () {
+    describe("Case for inputs that are not Array", function () {
       it("should return 'Sorry only Arrays are alowed as inputs' for 'this is andela'", function (){
         expect(compute.findMinMax('this is andela')).toEqual('Sorry only Arrays are allowed as inputs');
       });
